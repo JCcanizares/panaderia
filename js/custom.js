@@ -15,47 +15,48 @@ $(document).ready(function(){
     
     
     //-- START -- MAIN BANNER
-    $(".bxslider").bxSlider({
-        mode: 'fade',
-        touchEnabled: true,
-        //captions: true,
-        auto: true,
-        pause: 50000
+    $('.banner-carousel').owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        margin: 0,
+        nav: true,
+        items: 1
     });
     //--END -- MAIN BANNER
     
     //-- START -- INSTALACIONES SLIDER
-    $(".instalaciones-bxslider").bxSlider({
-        mode: 'fade',
-        auto: true,
-        touchEnabled: true,
-        pause: 5000,
-        pagerCustom: '#bx-pager'
+     $('.instalaciones-bxslider').owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        margin: 0,
+        nav: false,
+        items:1
     });
     //--END -- INSTALACIONES SLIDER
     
     //--START -- GALLERY SLIDER
-    var slide_width = 200;
-    var window_width = $(window).width();
-    
-    if(window_width < 768){
-        slide_width = window_width;
-    } else if (window_width < 991){
-        slide_width = window_width / 2;
-    } else if (window_width < 1399){
-        slide_width = window_width / 3;
-    } else{
-        slide_width = window_width / 4;
-    }
-    
-    $('.gallery_bxslider').bxSlider({
-        minSlides: 1,
-        maxSlides: 4,
-        slideWidth: slide_width,
-        slideMargin: 10,
-        ticker: true,
-        touchEnabled: true,
-        speed: 70000
+    $('.gallery-carousel').owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        margin: 0,
+        nav: false,
+        responsive:{
+            0:{
+                items:1
+            },
+            767:{
+                items:3
+            },
+            991:{
+                items:4
+            },
+            1200:{
+                items: 5
+            }
+        }
     });
     //-- END -- GALLERY SLIDER
     

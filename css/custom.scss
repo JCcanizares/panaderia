@@ -68,40 +68,23 @@ body{
         padding: 0;
     }
     #slider{
-        .bx-wrapper, .bx-viewport{
-            max-height: 500px;
-        }
-        .bx-wrapper{
-            .bx-pager {
-	            bottom: 20px;
+        .owl-controls{
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            bottom: 10px;
+            .owl-nav{
+                display: none;
             }
-            .bx-caption {
-	            width: 40%;
-                bottom: 90px;
-                background: rgba($primary-color, 0.85);
-                span{
-                    font-family: $font-family-2;
-                    font-size: 25px;
-                    font-size: 2.5rem;
-                }
-            }
-            .bx-viewport{
-                box-shadow: none;
-                left: 0;
-                border: 0;
-            }
-            
-            .bx-controls{
-                .bx-pager-item{
-                    a{
-                        width: 15px;
-                        height: 15px;
-                        border-radius: 100%;
-                        background: #FFFFFF;
-                        &.active{
-                            background: $primary-color;
-                        }
-                    }
+            .owl-dot{
+                display: inline-block;
+                width: 15px;
+                height: 15px;
+                border-radius: 100%;
+                background: #FFFFFF;
+                margin: 0 5px;
+                &.active{
+                    background: $primary-color;
                 }
             }
         }
@@ -299,38 +282,12 @@ body{
 #gallery{
     min-height: 250px;
     padding-top: 50px;
-    #gallery_container{
-        .bx-wrapper, .bx-viewport{
-            max-height: 250px;
-        }
-        .bx-wrapper{
-            .bx-pager {
-	            bottom: 20px;
-            }
-            .bx-viewport{
-                box-shadow: none;
-                left: 0;
-                border: 0;
-            }
-            
-            .bx-controls{
-                .bx-pager-item{
-                    a{
-                        width: 15px;
-                        height: 15px;
-                        border-radius: 100%;
-                        background: #FFFFFF;
-                        &.active{
-                            background: $primary-color;
-                        }
-                    }
-                }
-            }
-        }
+    #gallery-container{
         ul{
             margin: 0;
             padding: 0;
             li{
+                list-style: none;
                 margin: 0;
                 margin-right: 0 !important;
                 figure{
@@ -346,6 +303,7 @@ body{
 }
 
 #horario{
+    margin-top: 50px;
     padding: 20px 60px;
     #horario_general{
         text-align: center;

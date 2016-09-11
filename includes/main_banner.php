@@ -1,7 +1,7 @@
 <section id="main-banner">
     <div class="container-fluid">
         <div id="slider">
-            <ul class="bxslider">
+            <ul class="banner-carousel">
               <li>
                   <figure><img src="img/banners/banner5.jpg" title="Foto numero 1" /></figure>
                   <figcaption></figcaption>

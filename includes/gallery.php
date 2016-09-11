@@ -1,8 +1,8 @@
 <section id="gallery">
     <div class="container-fluid">
        <div class="row">
-            <div id="gallery_container">
-              <ul class="gallery_bxslider">
+            <div id="gallery-container">
+              <ul class="gallery-carousel">
                 <li><figure><img src="img/banners/gallery1.jpg" /></figure></li>
                 <li><figure><img src="img/banners/gallery2.jpg" /></figure></li>
                 <li><figure><img src="img/banners/gallery3.jpg" /></figure></li>
