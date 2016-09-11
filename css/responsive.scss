@@ -1,0 +1,268 @@
+@import 'variables.scss';
+
+// Medium Devices - [ MD ]
+@media (max-width: 1399px) {
+    #sectors{
+        ul{
+            li.sector-item{
+                a{
+                    .top-icon{
+                        left: 105px;
+                    }
+                    .circle{
+                    }
+                    &:hover{
+                        .top-icon{
+                            left: 105px;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    
+    #horario{
+        padding: 0;
+    }
+}
+
+@media (max-width: 1199px) {
+    #sectors{
+        ul{
+            li.sector-item{
+                a{
+                    .top-icon{
+                        left: 85px;
+                    }
+                    .circle{
+                    }
+                    &:hover{
+                        .top-icon{
+                            left: 85px;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    
+    .navbar{
+        ul{
+            li{
+                a{
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}
+
+// Small Devices - [ SM ]
+@media (max-width: 991px) {
+    .navbar{
+        margin-bottom: 10px;
+        #logo{
+            display: block;
+            width: 100%;
+            img{
+                width: 180px;
+                margin: 0 auto;
+            }
+        }
+        .navbar-header{
+            float: none;
+            width: 100%;
+            display: block;
+        }
+        #navbar{
+            float: none;
+            margin-top: 60px;
+            ul{
+                width: 100%;
+                display: block;
+
+            }
+        }
+        
+    }
+    #main-banner {
+        width: 100%; 
+        height: 370px;
+        #slider{
+            .bx-wrapper, .bx-viewport{
+                max-height: 370px;
+            }
+            .bx-wrapper{
+                .bx-pager {
+
+                }
+                .bx-caption {
+                    width: 50%;
+                    bottom: 200px;
+                    span{
+                        font-family: $font-family-2;
+                        font-size: 25px;
+                        font-size: 2.5rem;
+                    }
+                }        
+                .bx-controls{
+                    .bx-pager-item{
+                        a{
+                            width: 15px;
+                            height: 15px;
+                            border-radius: 100%;
+                            background: #FFFFFF;
+                            &.active{
+                                background: $primary-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    
+    #testimonials{
+        #testimonial-container{
+            padding: 30px 50px;
+            &:before{
+                left: 0;
+            }
+            &:after{
+                right: 0;
+            }
+        }
+    }
+
+    #sectors{
+        ul{
+            li.sector-item{
+                width: calc(100% / 2 - 5px);
+                a{
+                    .top-icon{
+                        left: 135px;
+                    }
+                    &:hover{
+                        .top-icon{
+                            left: 135px;
+                        }
+                    }
+                }
+            }
+            li.sector-item:nth-child(1), li.sector-item:nth-child(2){
+                margin-bottom: 90px;
+            }
+        }
+    }
+    
+    #google_feed{
+        
+        .google_container{
+
+            .kyco_googleplusfeed{
+                width: 100%;
+            }
+        }
+    }
+}
+
+// Extra Small Devices - [ XS ]
+@media (max-width: 767px) {
+    .navbar {
+        min-height: 110px;
+        .navbar-toggle{
+            margin-top: 40px;
+        }
+        #logo{
+            width: initial;
+            img{
+                margin: 0;
+                width: 150px;
+            }
+        }
+        ul{
+            li{
+                text-align: center;
+            }
+        }
+    }
+    
+    #sectors{
+        ul{
+            li.sector-item{
+                width: 100%;
+                margin-bottom: 90px;
+                a{
+                    .top-icon {
+	                    left: calc(50% - 36px);
+                    }
+                    &:hover{
+                        .top-icon {
+                            left: calc(50% - 36px);
+                        }
+                    }
+                }
+            }
+            li.sector-item:nth-child(4){
+                margin-bottom: 0px;
+            }
+        }
+    }
+    
+    #main-banner{
+        max-height: 300px;
+        #slider{
+            .bx-wrapper {
+                .bx-caption{
+                    width: 100%;
+                }
+                .bx-controls-direction{
+                    display: none;
+                }
+            }
+            ul{
+                li{
+                    figure{
+                        height: initial;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    #google_feed{
+        .google_container .kyco_googleplusfeed .feed_header{
+            min-height: 300px;
+        }
+        h2{
+            font-size: 30px;
+            font-size: 3rem;
+        }
+    }
+    
+    #testimonials #testimonial-container h2{
+        font-size: 25px;
+        font-size: 2.5rem;
+    }
+    
+    #horario #horario_general h2{
+        font-size: 30px;
+        font-size: 3rem;
+    }
+    
+    #footer{
+        .list-right, .list-left{
+            float: none;
+            width: 100%;
+            text-align: center;
+        }
+    } 
+}

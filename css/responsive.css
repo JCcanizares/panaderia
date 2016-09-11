@@ -1,0 +1,172 @@
+/* line 14, C:/xampp/htdocs/Panaderia/css/variables.scss */
+.trans {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s; }
+
+@media (max-width: 1399px) {
+  /* line 9, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+  #sectors ul li.sector-item a .top-icon {
+    left: 105px; }
+  /* line 15, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+  #sectors ul li.sector-item a:hover .top-icon {
+    left: 105px; }
+  /* line 25, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+  #horario {
+    padding: 0; } }
+
+@media (max-width: 1199px) {
+  /* line 35, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+  #sectors ul li.sector-item a .top-icon {
+    left: 85px; }
+  /* line 41, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+  #sectors ul li.sector-item a:hover .top-icon {
+    left: 85px; }
+  /* line 54, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+  .navbar ul li a {
+    font-size: 17px; } }
+
+@media (max-width: 991px) {
+  /* line 64, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+  .navbar {
+    margin-bottom: 10px; }
+    /* line 66, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+    .navbar #logo {
+      display: block;
+      width: 100%; }
+      /* line 69, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+      .navbar #logo img {
+        width: 180px;
+        margin: 0 auto; }
+    /* line 74, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+    .navbar .navbar-header {
+      float: none;
+      width: 100%;
+      display: block; }
+    /* line 79, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+    .navbar #navbar {
+      float: none;
+      margin-top: 60px; }
+      /* line 82, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+      .navbar #navbar ul {
+        width: 100%;
+        display: block; }
+  /* line 90, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+  #main-banner {
+    width: 100%;
+    height: 370px; }
+    /* line 94, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+    #main-banner #slider .bx-wrapper, #main-banner #slider .bx-viewport {
+      max-height: 370px; }
+    /* line 101, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+    #main-banner #slider .bx-wrapper .bx-caption {
+      width: 50%;
+      bottom: 200px; }
+      /* line 104, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+      #main-banner #slider .bx-wrapper .bx-caption span {
+        font-family: "Pacifico", cursive;
+        font-size: 25px;
+        font-size: 2.5rem; }
+    /* line 112, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+    #main-banner #slider .bx-wrapper .bx-controls .bx-pager-item a {
+      width: 15px;
+      height: 15px;
+      border-radius: 100%;
+      background: #FFFFFF; }
+      /* line 117, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+      #main-banner #slider .bx-wrapper .bx-controls .bx-pager-item a.active {
+        background: #372114; }
+  /* line 129, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+  #testimonials #testimonial-container {
+    padding: 30px 50px; }
+    /* line 131, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+    #testimonials #testimonial-container:before {
+      left: 0; }
+    /* line 134, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+    #testimonials #testimonial-container:after {
+      right: 0; }
+  /* line 142, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+  #sectors ul li.sector-item {
+    width: calc(100% / 2 - 5px); }
+    /* line 145, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+    #sectors ul li.sector-item a .top-icon {
+      left: 135px; }
+    /* line 149, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+    #sectors ul li.sector-item a:hover .top-icon {
+      left: 135px; }
+  /* line 155, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+  #sectors ul li.sector-item:nth-child(1), #sectors ul li.sector-item:nth-child(2) {
+    margin-bottom: 90px; }
+  /* line 165, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+  #google_feed .google_container .kyco_googleplusfeed {
+    width: 100%; } }
+
+@media (max-width: 767px) {
+  /* line 174, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+  .navbar {
+    min-height: 110px; }
+    /* line 176, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+    .navbar .navbar-toggle {
+      margin-top: 40px; }
+    /* line 179, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+    .navbar #logo {
+      width: initial; }
+      /* line 181, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+      .navbar #logo img {
+        margin: 0;
+        width: 150px; }
+    /* line 187, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+    .navbar ul li {
+      text-align: center; }
+  /* line 195, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+  #sectors ul li.sector-item {
+    width: 100%;
+    margin-bottom: 90px; }
+    /* line 199, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+    #sectors ul li.sector-item a .top-icon {
+      left: calc(50% - 36px); }
+    /* line 203, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+    #sectors ul li.sector-item a:hover .top-icon {
+      left: calc(50% - 36px); }
+  /* line 209, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+  #sectors ul li.sector-item:nth-child(4) {
+    margin-bottom: 0px; }
+  /* line 215, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+  #main-banner {
+    max-height: 300px; }
+    /* line 219, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+    #main-banner #slider .bx-wrapper .bx-caption {
+      width: 100%; }
+    /* line 222, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+    #main-banner #slider .bx-wrapper .bx-controls-direction {
+      display: none; }
+    /* line 228, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+    #main-banner #slider ul li figure {
+      height: initial; }
+      /* line 230, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+      #main-banner #slider ul li figure img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+  /* line 242, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+  #google_feed .google_container .kyco_googleplusfeed .feed_header {
+    min-height: 300px; }
+  /* line 245, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+  #google_feed h2 {
+    font-size: 30px;
+    font-size: 3rem; }
+  /* line 251, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+  #testimonials #testimonial-container h2 {
+    font-size: 25px;
+    font-size: 2.5rem; }
+  /* line 256, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+  #horario #horario_general h2 {
+    font-size: 30px;
+    font-size: 3rem; }
+  /* line 262, C:/xampp/htdocs/Panaderia/css/responsive.scss */
+  #footer .list-right, #footer .list-left {
+    float: none;
+    width: 100%;
+    text-align: center; } }
+
+/*# sourceMappingURL=responsive.css.map */
