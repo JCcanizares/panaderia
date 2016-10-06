@@ -19,7 +19,7 @@
 ?>
 
 <?php
-    include 'includes/gallery.php';
+    include 'includes/gallery_2016.php';
 ?>
 
 <?php
