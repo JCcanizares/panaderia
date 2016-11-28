@@ -467,6 +467,23 @@ body{
     }
 }
 
+#tv_page{
+    h1{
+        text-align: center;
+        margin: 30px 0 40px 0;
+        font-family: $font-family-2;
+        color: $primary-color;
+        font-size: 60px;
+        font-size: 6rem;
+    }
+    #horario{
+        margin: 0;
+    }
+    #gallery{
+        padding-top: 10px;
+    }
+}
+
 #conoce_page{
     padding: 50px 0;
     h2{

@@ -407,27 +407,44 @@ body {
     font-size: 40px;
     font-size: 4rem; }
 
-/* line 470, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+/* line 471, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+#tv_page h1 {
+  text-align: center;
+  margin: 30px 0 40px 0;
+  font-family: "Pacifico", cursive;
+  color: #372114;
+  font-size: 60px;
+  font-size: 6rem; }
+
+/* line 479, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+#tv_page #horario {
+  margin: 0; }
+
+/* line 482, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+#tv_page #gallery {
+  padding-top: 10px; }
+
+/* line 487, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
 #conoce_page {
   padding: 50px 0; }
-  /* line 472, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 489, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #conoce_page h2 {
     color: #372114; }
-  /* line 475, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 492, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #conoce_page p {
     font-size: 18px;
     font-size: 1.8rem; }
-    /* line 479, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+    /* line 496, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
     #conoce_page p a:hover {
       text-decoration: none;
       color: #372114; }
-  /* line 486, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 503, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #conoce_page .container-fluid {
     padding: 0; }
-  /* line 489, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 506, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #conoce_page #google_map {
     width: 100%; }
-    /* line 491, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+    /* line 508, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
     #conoce_page #google_map .overlay {
       background: transparent;
       position: relative;
@@ -438,127 +455,127 @@ body {
       /* your iframe height */
       margin-top: -450px;
       /* your iframe height */ }
-    /* line 499, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+    /* line 516, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
     #conoce_page #google_map iframe {
       width: 100%; }
-  /* line 504, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 521, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #conoce_page #contact_info {
     text-align: center; }
 
-/* line 509, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+/* line 526, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
 #productos_page {
   padding: 50px 0; }
-  /* line 511, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 528, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #productos_page h1 {
     margin-top: 0;
     margin-bottom: 20px; }
-  /* line 515, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 532, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #productos_page p {
     font-size: 20px; }
-  /* line 518, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 535, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #productos_page .row:first-of-type {
     margin-bottom: 30px; }
-  /* line 521, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 538, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #productos_page figure {
     width: 100%; }
-    /* line 523, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+    /* line 540, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
     #productos_page figure img {
       width: 100%;
       height: 100%;
       border-radius: 10px; }
 
-/* line 531, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+/* line 548, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
 #historia_page {
   padding: 50px 0; }
-  /* line 533, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 550, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #historia_page h1 {
     margin-top: 0;
     margin-bottom: 20px; }
-  /* line 537, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 554, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #historia_page p {
     font-size: 20px; }
-  /* line 540, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 557, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #historia_page .row:first-of-type {
     margin-bottom: 30px; }
-  /* line 543, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 560, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #historia_page figure {
     width: 100%; }
-    /* line 545, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+    /* line 562, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
     #historia_page figure img {
       width: 100%;
       height: 100%;
       border-radius: 10px; }
 
-/* line 553, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+/* line 570, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
 #instalaciones_page {
   padding: 50px 0; }
-  /* line 555, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 572, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #instalaciones_page h1 {
     margin-top: 0;
     margin-bottom: 20px; }
-  /* line 559, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 576, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #instalaciones_page p {
     font-size: 20px; }
-  /* line 562, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 579, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #instalaciones_page .row:first-of-type {
     margin-bottom: 30px; }
-  /* line 565, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 582, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #instalaciones_page figure {
     width: 100%; }
-    /* line 567, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+    /* line 584, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
     #instalaciones_page figure img {
       width: 100%;
       height: 100%;
       border-radius: 10px; }
-  /* line 574, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 591, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #instalaciones_page #instalaciones_slider .bx-wrapper, #instalaciones_page #instalaciones_slider .bx-viewport {
     max-height: 500px; }
-  /* line 578, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 595, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #instalaciones_page #instalaciones_slider .bx-wrapper .bx-pager {
     bottom: 20px; }
-  /* line 581, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 598, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #instalaciones_page #instalaciones_slider .bx-wrapper .bx-caption {
     width: 40%;
     bottom: 90px;
     background: rgba(55, 33, 20, 0.85); }
-    /* line 585, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+    /* line 602, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
     #instalaciones_page #instalaciones_slider .bx-wrapper .bx-caption span {
       font-family: "Pacifico", cursive;
       font-size: 25px;
       font-size: 2.5rem; }
-  /* line 591, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 608, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #instalaciones_page #instalaciones_slider .bx-wrapper .bx-viewport {
     box-shadow: none;
     left: 0;
     border: 0; }
-  /* line 599, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 616, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #instalaciones_page #instalaciones_slider .bx-wrapper .bx-controls .bx-pager-item a {
     width: 15px;
     height: 15px;
     border-radius: 100%;
     background: #FFFFFF; }
-    /* line 604, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+    /* line 621, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
     #instalaciones_page #instalaciones_slider .bx-wrapper .bx-controls .bx-pager-item a.active {
       background: #372114; }
-  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 628, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #instalaciones_page #instalaciones_slider ul {
     margin: 0;
     padding: 0;
     display: block; }
-    /* line 615, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+    /* line 632, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
     #instalaciones_page #instalaciones_slider ul li {
       position: relative;
       height: 500px;
       display: block; }
-      /* line 619, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+      /* line 636, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
       #instalaciones_page #instalaciones_slider ul li figure {
         height: 100%; }
-        /* line 621, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+        /* line 638, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
         #instalaciones_page #instalaciones_slider ul li figure img {
           width: 100%;
           height: 100%;
           object-fit: cover; }
-  /* line 631, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+  /* line 648, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
   #instalaciones_page #instalaciones_slider #bx-pager a {
     display: inline-block;
     width: 100px;
@@ -568,17 +585,17 @@ body {
     border: 2px solid #BDBDBD;
     border-radius: 5px;
     padding: 2px; }
-    /* line 641, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+    /* line 658, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
     #instalaciones_page #instalaciones_slider #bx-pager a img {
       width: 100%;
       height: 100%;
       object-fit: cover;
       border-radius: 2px; }
-    /* line 647, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+    /* line 664, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
     #instalaciones_page #instalaciones_slider #bx-pager a.active {
       opacity: 1;
       border-color: #372114; }
-    /* line 651, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
+    /* line 668, /Applications/XAMPP/xamppfiles/htdocs/panaderia/css/custom.scss */
     #instalaciones_page #instalaciones_slider #bx-pager a:hover {
       opacity: 1; }
 
